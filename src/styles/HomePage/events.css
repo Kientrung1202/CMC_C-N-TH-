@@ -1,0 +1,65 @@
+#events {
+    margin: 60px 110px;
+    color: var(--green);
+}
+
+#events .all-events {
+    max-height: 490px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+#events .all-events .slide-event {
+    background: var(--light-green);
+    width: 385px;
+    height: 490px;
+    overflow-y: scroll;   
+}
+
+#scroll-event::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 5px;
+    background-color: var(-white);
+} 
+
+
+#scroll-event::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border-radius: 5px;
+}
+
+#events .all-events .slide-event .event {
+    padding: 22px 0;
+    margin: 0 32px;
+    border-bottom: 1px solid var(--grey);
+    display: flex;
+    gap: 16px;
+    text-align: justify;
+}
+#events .all-events .slide-event .event .day {
+    background: var(--green);
+    border-radius: 50%;
+    border: 2px solid var(--dark-green);
+    color: var(--white);
+    width: 77px;
+    height: 77px;
+    display:flex;
+    align-items: center;
+}
+.place-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 9px 0; 
+}
+#events .all-events .slide-event .event .day p {
+    width: 100%;
+}
+#events .all-events video {
+    width: 646px;
+    height: 490px;
+    object-fit: fill;
+}

@@ -1,0 +1,86 @@
+#about-us {
+    width: 100%;
+    margin: 45px auto 84px auto;
+}
+#about-us h2{
+    color: var(--green);
+    margin: 0 auto;
+}
+
+#about-us .maxim { 
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-green);
+    margin: 8px;
+}
+#about-us .illustrating {
+    margin: 0 87px 57px 87px;
+    position: relative;
+
+}
+#about-us .illustrating .image { 
+    width: 930px;
+    height: 448px;
+    background-image: url("../../../public/assets/about-us-2.png"), url("../../../public/assets/about-us-1.png");
+}
+
+#about-us .illustrating .description {
+    position: absolute;
+    right: 0;
+    top: 65px;
+    width: 448px;
+    height: 348px;
+    background-color: var(--green);
+    border-radius: 12px;
+}
+
+#about-us .illustrating .description img {
+    margin: 50px auto 25px auto;
+}
+
+#about-us .illustrating .description p{
+    margin: 0 45px;
+    color: var(--white);
+    line-height: 19px;
+    text-align: justify;
+}
+
+#about-us .strength {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 87px;
+    gap: 40px;
+}
+
+#about-us .strength .one-strength {
+    display: flex;
+    gap: 16px;
+}
+
+#about-us .strength .one-strength .frame-image { 
+    border-radius: 5px;
+    width: 108px;
+    height: 100px;
+    background-color: var(--dark-green);
+    display: flex;
+}
+
+#about-us .strength .one-strength .frame-image img {
+    margin: auto;
+    display: block;
+}
+
+#about-us .strength .one-strength h5 {
+    width: auto;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    text-align: start;
+    width: 217px;
+}
+
+#about-us .strength .one-strength p {
+    margin: 0;
+    text-align: justify;
+    width: 217px;
+}

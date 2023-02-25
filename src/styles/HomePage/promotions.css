@@ -1,0 +1,16 @@
+#promotions {
+    background: var(--dark-green);
+    color: var(--white);
+    padding: 45px 0 80px 0;
+    box-sizing: content-box;
+}
+
+#promotions .slider {
+    padding-top: 45px;
+    margin: 0 45px;
+}
+
+.a-promotion img{
+   max-width: 380px;
+   margin: 0 auto;
+}

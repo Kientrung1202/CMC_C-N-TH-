@@ -1,0 +1,110 @@
+:root {
+    --green: #38A700;
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-green: #C0F4CA;
+    --dark-green: #0F4A1A;
+    --grey: #666A86;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    max-width: 1280px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+@font-face {
+font-family: "Montserrat";
+src: local("Montserrat"), url("../../public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+font-weight: 100 900;
+}
+
+@font-face {
+font-family: "Inter";
+src: local("Inter"), url("../../public/fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+font-weight: 100 900;
+}
+
+.text-center {
+    width: 100%;
+    text-align: center;
+}
+
+.bold-text {
+    font-family: 'Montserrat' !important;
+    font-weight: 900;
+    margin: 0;
+}
+
+.medium-bold-text{
+    font-weight: 700;
+}
+
+.light-text {
+    font-weight: 500;
+}
+
+.huge-text {
+    font-size: 36px;
+}
+
+.big-text {
+    font-size: 20px;
+}
+
+.medium-text {
+    font-size: 16px;
+}
+
+.little-small-text{
+    font-size: 14px;
+}
+
+.small-text-13 {
+    font-size: 13px;
+}
+
+.small-text {
+    font-size: 11px;
+}
+
+.very-small-text {
+    font-size: 8px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tag {
+    border-radius: 5px;
+    background-color: var(--green);
+    width: 100px;
+}
+
+.tag p {
+    text-align: center !important;
+    color: var(--white);
+}
+
+.add-pd {
+    width: 178px;
+    height: 4px;
+    left: 568px;
+    top: 921px;
+    margin: 8px auto;
+}

@@ -1,0 +1,84 @@
+#footer {
+    position: relative;
+}
+#footer .infomation{
+    width: 100%;
+    height: 330px;
+    background: url(../../../public/assets/footer.png) no-repeat, url(../../../public/assets/footer-main.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    text-align: start;
+    gap: 70px;
+}
+#footer .infomation .social-media {
+    width: 165px;
+    margin-right: 70px;
+    padding-left: 110px;
+
+}
+
+#footer .infomation .social-media img {
+    width: 100%;
+}
+
+#footer .infomation .social-media .link-social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .infomation .contact {
+    display: grid;
+    grid-template-columns: 16px 92px 220px;
+    gap: 13px 19px;
+}
+
+
+#footer .infomation .social-media .link-social-media .social-icon {
+    border: none;
+    border-radius: 5px;
+    width: 34px;
+    height: 34px;
+    margin-top: 25px;
+} 
+#footer .infomation .short-link  {
+    margin: 0;
+    padding-top: 50px
+}
+#footer .infomation .short-link li {
+    margin: 13px 0;
+}
+#footer .infomation .short-link ul {
+    padding-left: 10px;
+}
+#footer .infomation .short-link li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+#footer .infomation .short-link .count-user {
+    display: flex;
+    gap: 4px;
+    position: relative;
+    left: -5px;
+}
+
+#footer .devider  {
+    width: 100%;
+    height: 2px;
+    background-color: var(--green);
+    position: absolute;
+    bottom: 12.87%;;
+}
+
+#footer .copy-by {
+    height: 42px;
+    background: var(--green);
+}
+
+#footer .copy-by p {
+    line-height: 42px;
+    font-weight: 300;
+}

@@ -1,0 +1,30 @@
+#suggestion {
+    background-color: var(--dark-green);
+    color: var(--white);
+    padding: 45px 0 80px 0;
+    box-sizing: content-box;
+}
+#suggestion .add-pd {
+    background-color: var(--green);
+    margin-bottom: 45px;
+}
+
+#suggestion .suggestion-detail {
+    margin: auto 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#suggestion .suggestion-detail .a-suggest{
+    max-width: 245px;
+    cursor: pointer;
+}
+
+#suggestion .question {
+    box-sizing: content-box;
+    background: var(--white);
+    color: var(--green);
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
