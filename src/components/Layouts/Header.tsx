@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../../styles/global.css";
 import "../../styles/Layouts/header.css";
 import { useState } from "react";
 
@@ -18,7 +17,7 @@ const Header = ({
   const [utilData, setUtilData] = useState(mockUtilData);
   const [currentNav, setCurrentNav] = useState("home");
   return (
-    <div>
+    <section id="header">
       <div id="util-info">
         <div className="info small-text">
           <div className="sub-info">
@@ -145,7 +144,7 @@ const Header = ({
           </button>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,64 +1,66 @@
 #footer {
     position: relative;
 }
-#footer .infomation{
-    width: 100%;
-    height: 330px;
+
+#footer .first-section {
     background: url(../../../public/assets/footer.png) no-repeat, url(../../../public/assets/footer-main.png) no-repeat;
     background-size: cover;
+}
+
+#footer .information{
+    width: 100%;
+    height: 330px;
     display: flex;
     align-items: center;
     color: var(--white);
     text-align: start;
     gap: 70px;
 }
-#footer .infomation .social-media {
+#footer .information .social-media {
     width: 165px;
-    margin-right: 70px;
-    padding-left: 110px;
-
+    margin-left: 110px;
 }
 
-#footer .infomation .social-media img {
+#footer .information .social-media img {
     width: 100%;
 }
 
-#footer .infomation .social-media .link-social-media {
+#footer .information .social-media .link-social-media {
     display: flex;
     justify-content: space-between;
 }
 
-#footer .infomation .contact {
+#footer .information .contact {
     display: grid;
     grid-template-columns: 16px 92px 220px;
     gap: 13px 19px;
 }
 
 
-#footer .infomation .social-media .link-social-media .social-icon {
+#footer .information .social-media .link-social-media .social-icon {
     border: none;
     border-radius: 5px;
     width: 34px;
     height: 34px;
     margin-top: 25px;
 } 
-#footer .infomation .short-link  {
+#footer .information .short-link  {
     margin: 0;
     padding-top: 50px
 }
-#footer .infomation .short-link li {
+#footer .information .short-link li {
     margin: 13px 0;
 }
-#footer .infomation .short-link ul {
+#footer .information .short-link ul {
     padding-left: 10px;
 }
-#footer .infomation .short-link li a{
+#footer .information .short-link li a{
     text-decoration: none;
     color: white;
     font-size: 13px;
 }
 
-#footer .infomation .short-link .count-user {
+#footer .information .short-link .count-user {
     display: flex;
     gap: 4px;
     position: relative;

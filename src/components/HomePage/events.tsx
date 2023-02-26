@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../../styles/HomePage/events.css";
-import Title from "./title";
+import Title from "./Title";
 
 interface Event {
   name: string | undefined;

@@ -5,14 +5,14 @@
     --light-green: #C0F4CA;
     --dark-green: #0F4A1A;
     --grey: #666A86;
+    --max-width-default: 1280px;
 }
 
 body {
-    margin: 0 auto;
+    margin: 0 auto ;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
-    max-width: 1280px;
     text-align: center;
     justify-content: center;
 }
@@ -23,6 +23,14 @@ h2 {
 
 p {
     margin: 0;
+}
+
+.max-width-default {
+    max-width: var(--max-width-default);
+}
+
+.align-center {
+    margin: 0 auto;
 }
 
 @font-face {
@@ -107,4 +115,12 @@ font-weight: 100 900;
     left: 568px;
     top: 921px;
     margin: 8px auto;
+}
+
+.ui.dimmer {
+    background-color: rgba(113, 113, 113, 0.4) !important;
+}
+
+:where(.css-dev-only-do-not-override-1km3mtt).ant-form-item .ant-form-item-label >label::after {
+    content: ""
 }

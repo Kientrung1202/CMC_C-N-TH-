@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "../../styles/HomePage/promotions.css";
-import Title from "./title";
+import Title from "./Title";
 
 interface IPromotion {
   img: string | undefined;
@@ -54,15 +54,17 @@ export default function Promotions() {
   return (
     <section id="promotions">
       <Title
-        msg="về chúng tôi"
+        msg="khuyến mãi"
         colorText="var(--white)"
         colorDivider="var(--green)"
       ></Title>
-      <Slider {...settings} className="slider">
-        {promotions.map((promotion: IPromotion) => (
-          <Promotion {...promotion} />
-        ))}
-      </Slider>
+      <div className="max-width-default align-center">
+        <Slider {...settings} className="slider">
+          {promotions.map((promotion: IPromotion) => (
+            <Promotion {...promotion} />
+          ))}
+        </Slider>
+      </div>
     </section>
   );
 }

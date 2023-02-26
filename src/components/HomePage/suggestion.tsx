@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../../styles/HomePage/suggestions.css";
-import Title from "./title";
+import Title from "./Title";
 
 type Suggestion = {
   img?: string | undefined;
@@ -52,10 +52,12 @@ const Suggestions = () => {
         colorText="var(--white)"
         colorDivider="var(--green)"
       ></Title>
-      <div className="suggestion-detail">
-        {suggestions.map((suggestion: Suggestion) => (
-          <SuggestionDetail {...suggestion} />
-        ))}
+      <div className="max-width-default align-center">
+        <div className="suggestion-detail">
+          {suggestions.map((suggestion: Suggestion) => (
+            <SuggestionDetail {...suggestion} />
+          ))}
+        </div>
       </div>
     </section>
   );

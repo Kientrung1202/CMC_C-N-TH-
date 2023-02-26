@@ -1,5 +1,3 @@
-import "../../styles/global.css";
-
 export default function Title({
   msg,
   colorText,

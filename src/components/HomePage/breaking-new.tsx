@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../../styles/HomePage/breaking-news.css";
-import Title from "./title";
+import Title from "./Title";
 
 interface News {
   name: string | undefined;
@@ -143,16 +143,18 @@ const BreakingNews = () => {
         colorText="var(--green)"
         colorDivider="var(--grey)"
       ></Title>
-      <div className="interesting-news">
-        {interestingNews.map((news: News) => (
-          <InterestingNew {...news} />
-        ))}
-      </div>
-      <p className="devider medium-bold-text">TIN TỨC KHÁC</p>
-      <div className="other-news">
-        {otherNews.map((news: News) => (
-          <OtherNews {...news} />
-        ))}
+      <div className="max-width-default align-center">
+        <div className="interesting-news ">
+          {interestingNews.map((news: News) => (
+            <InterestingNew {...news} />
+          ))}
+        </div>
+        <p className="devider medium-bold-text">TIN TỨC KHÁC</p>
+        <div className="other-news">
+          {otherNews.map((news: News) => (
+            <OtherNews {...news} />
+          ))}
+        </div>
       </div>
     </section>
   );
